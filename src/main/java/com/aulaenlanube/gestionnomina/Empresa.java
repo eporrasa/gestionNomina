@@ -17,5 +17,17 @@ public class Empresa {
     public void addTrabajador(Trabajador t){
         this.trabajadores.add(t);
     }
-    
+
+    public String getCif() {
+        return cif;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public List<Trabajador> getTrabajadores() {
+        return trabajadores;
+    }
+
 }
